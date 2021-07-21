@@ -3,8 +3,8 @@
 
 # ado
 
-<!-- badges: start -->
-<!-- badges: end -->
+[![R-CMD-check](https://github.com/resplab/ado/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/resplab/ado/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/resplab/ado/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/resplab/ado/actions/workflows/test-coverage.yaml)
 
 The goal of ado is to …
 
