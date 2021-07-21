@@ -5,6 +5,7 @@
 
 [![R-CMD-check](https://github.com/resplab/ado/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/resplab/ado/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/resplab/ado/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/resplab/ado/actions/workflows/test-coverage.yaml)
+[![codecov](https://codecov.io/gh/resplab/ado/branch/main/graph/badge.svg?token=7CSK7YWFDX)](https://codecov.io/gh/resplab/ado)
 
 The goal of ado is to …
 
