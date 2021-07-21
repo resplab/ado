@@ -7,7 +7,7 @@
 [![test-coverage](https://github.com/resplab/ado/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/resplab/ado/actions/workflows/test-coverage.yaml)
 [![codecov](https://codecov.io/gh/resplab/ado/branch/main/graph/badge.svg?token=7CSK7YWFDX)](https://codecov.io/gh/resplab/ado)
 
-The goal of ado is to …
+The goal of ado is to calculate the ADO index in COPD.
 
 ## Installation
 
@@ -20,36 +20,10 @@ devtools::install_github("resplab/ado")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which calculate the ADO index, which is a scored being used to predict 3-year overall mortality among COPD patients. The individual has 65% forced expiratory volume in one second (FEV1), the dyspnea scale of modified Medical Research Council (mMRC) 1, and age 41 years old. He/she would have ADO score 0.
 
 ``` r
 library(ado)
-## basic example code
+ado(fev=65, mmrc=1, age=41)
+# > 0
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/master/examples>.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
