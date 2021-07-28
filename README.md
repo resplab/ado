@@ -25,5 +25,6 @@ This is a basic example which calculate the ADO index, which is a scored being u
 ``` r
 library(ado)
 ado(fev=65, mmrc=1, age=41)
-# > 0
+$ado_index
+[1] 0
 ```
