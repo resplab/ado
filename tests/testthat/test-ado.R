@@ -6,7 +6,7 @@ test_output <- function() {
       fev = 65,
       mmrc = 1,
       age = 0
-    )
+    )$ado_index
     ,
     0)
 
@@ -14,7 +14,7 @@ test_output <- function() {
       fev = 36,
       mmrc = 2,
       age = 50
-    )
+    )$ado_index
     ,
     3)
 
@@ -22,7 +22,7 @@ test_output <- function() {
       fev = 20,
       mmrc = 3,
       age = 60
-    )
+    )$ado_index
     ,
     6)
 
@@ -30,7 +30,7 @@ test_output <- function() {
       fev = 65,
       mmrc = 4,
       age = 70
-    )
+    )$ado_index
     ,
     6)
 
@@ -38,7 +38,7 @@ test_output <- function() {
       fev = 65,
       mmrc = 4,
       age = 80
-    )
+    )$ado_index
     ,
     7)
 
@@ -46,7 +46,7 @@ test_output <- function() {
       fev = 65,
       mmrc = 4,
       age = 90
-    )
+    )$ado_index
     ,
     8)
   })
