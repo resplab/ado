@@ -5,7 +5,7 @@ test_output <- function() {
     expect_equal(ado(
       fev = 65,
       mmrc = 1,
-      age = 0
+      age = 40
     )$ado_index
     ,
     0)
