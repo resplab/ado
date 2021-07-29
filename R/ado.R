@@ -29,20 +29,20 @@ ado <- function (fev, mmrc, age) {
   }
 
   if (age >= 40 & age <= 49) {
-    age <- 0
+    ag <- 0
   } else if (age >= 50 & age <= 59) {
-    age <- 1
+    ag <- 1
   } else if (age >= 60 & age <= 69) {
-    age <- 2
+    ag <- 2
   } else if (age >= 70 & age <= 79) {
-    age <- 3
+    ag <- 3
   } else if (age >= 80 & age <= 89) {
-    age <- 4
+    ag <- 4
   } else if (age >= 90) {
-    age <- 5
+    ag <- 5
   }
 
-  ado_index <- age + obstruction + dyspnea
+  ado_index <- ag + obstruction + dyspnea
   results <- list()
   results$ado_index <- ado_index
   return(results)
