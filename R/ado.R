@@ -42,7 +42,7 @@ ado <- function (fev, mmrc, age) {
     ag <- 5
   }
 
-  ado_index <- ag + obstruction + dyspnea
+  ado_index <- obstruction + dyspnea + ag
   results <- list()
   results$ado_index <- ado_index
   return(results)
