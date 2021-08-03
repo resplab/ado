@@ -42,12 +42,10 @@ ado <- function (fev, mmrc, age) {
     year <- 5
   }
 
-  ci_plot <- plotly::plot_ly(x = ~c(1:5))
-
   ado_index <- obstruction + dyspnea + year
   results <- list()
   results$ado_index <- ado_index
-  results$plot <- ci_plot
+
   return(results)
 
 }
